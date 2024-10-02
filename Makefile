@@ -8,10 +8,10 @@ MIGRATIONS_DIR := migrations
 
 .PHONY: git-init
 git-init:
-#	gh repo create $(PROJECT) --private
-#	git init
-#	git config user.name "$(USER)"
-#	git config user.email "$(EMAIL)"
+	gh repo create $(PROJECT) --private
+	git init
+	git config user.name "$(USER)"
+	git config user.email "$(EMAIL)"
 	git add Makefile go.mod
 	git commit -m "Init commit"
 	git remote add origin git@github.com:$(USER)/$(PROJECT).git
