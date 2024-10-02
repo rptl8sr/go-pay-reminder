@@ -11,8 +11,7 @@ import (
 )
 
 const (
-	apiCredentials      = "credentials.json"
-	serviceAccountCreds = "go-pay-reminder-fe66ab95b893.json"
+	serviceAccountCreds = "serviceCreds.json"
 )
 
 type Config struct {

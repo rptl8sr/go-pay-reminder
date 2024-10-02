@@ -2,5 +2,6 @@
 /bin/
 
 *.env
+*.zip
 credentials.json
 serviceCreds.json
