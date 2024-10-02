@@ -2,3 +2,5 @@
 /bin/
 
 *.env
+credentials.json
+/go-pay-reminder-fe66ab95b893.json
