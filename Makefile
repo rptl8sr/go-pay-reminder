@@ -59,4 +59,4 @@ test:
 
 .PHONY: yzip
 yzip:
-	zip -r $(PROJECT)_`date +%Y-%m-%d`.zip configs internal go.mod go.sum handler.go credentials.json serviceCreds.json
+	zip -r $(PROJECT)_`date +%Y-%m-%d`.zip configs internal go.mod go.sum handler.go serviceCreds.json
