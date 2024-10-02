@@ -1,6 +1,7 @@
 package config
 
 import (
+	"fmt"
 	"log/slog"
 	"os"
 
@@ -27,7 +28,7 @@ func MustLoad() (*Config, error) {
 
 	err := godotenv.Load()
 	if err != nil {
-		return nil, err
+		fmt.Println("Error loading .env file")
 	}
 
 	if err = cleanenv.ReadEnv(cfg); err != nil {
